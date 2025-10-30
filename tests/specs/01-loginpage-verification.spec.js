@@ -19,4 +19,5 @@ test("Verify login functionality", async ({ page }) => {
   const loginpage = new LoginPage(page);
   await page.goto("https://groceryapp.uniqassosiates.com/admin/login");
   await loginpage.logIn("admin", "admin");
+  console.log("testttttttttttt")
 });
