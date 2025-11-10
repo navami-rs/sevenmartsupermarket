@@ -22,7 +22,7 @@ test.beforeEach(async ({browser}) => {
  homePage = new HomePage(page);
 });
 
-test("HomePage Verification", async () => {
+test("smoke HomePage Verification", async () => {
 await loginPage.launchUrl();
   expect(await homePage.getProfileName()).toContain("Admin");
   await expect(homePage.$profileName).toBeVisible();
