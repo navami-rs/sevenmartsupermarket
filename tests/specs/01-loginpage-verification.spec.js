@@ -20,5 +20,6 @@ test.beforeAll(async ({ browser }) => {
   await page.goto("https://groceryapp.uniqassosiates.com/admin/login");
   await loginpage.logIn("admin", "admin");
   console.log("testttttttttttt")
+  console.log("continuous integration first ")
 });
 
